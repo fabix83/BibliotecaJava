@@ -11,7 +11,10 @@ public class BibliotecaJavaMain {
 		Livro livro = new Livro();
 		livro.nome="Java 8";
 		livro.descricao = "Novos Paradigmas";
-		livro.valor = 59.90;
+		
+		//exemplo de encapsulamento. atributo valor é private.
+		livro.adicionaValor(59.99);
+		
 		livro.isbn="978-85-00000-00-0";
 		livro.autor = autor;
 		
